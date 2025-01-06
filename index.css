@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  background-image: url('./assets/worldmap.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 75px;
+  margin-right: 15px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.texts h1 {
+  color: #32CD32;
+  font-weight: bold;
+  margin: 0;
+}
+
+.texts h2 {
+  color: white;
+  margin: 5px 0 0;
+  font-size: 15px;
+}
+
+.translate h1 {
+  color: #035A9D;
+  text-align: center;
+  font-size: 100%;
+}
+
+.input {
+  background-color: #EFF0F4;
+  border: #035A9D;
+  text-align: center;
+
+}
+
+input[type="text"] {
+  padding:
+  font-size:
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
