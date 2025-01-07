@@ -19,6 +19,7 @@ document.querySelector('.t-btn').addEventListener('click', async () => {
       }),
     });
 
+
     const data = await response.json();
     if (data.translation) {
       document.getElementById('output').innerText = `Translated Text: ${data.translation}`;
