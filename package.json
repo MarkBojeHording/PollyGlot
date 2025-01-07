@@ -16,3 +16,7 @@
     "vite": "latest"
   }
 }
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
