@@ -8,7 +8,7 @@ document.querySelector('.t-btn').addEventListener('click', async () => {
   }
 
   try {
-    const response = await fetch('http://localhost:5002/translate', {
+    const response = await fetch('http://localhost:3000/translate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -19,10 +19,12 @@ document.querySelector('.t-btn').addEventListener('click', async () => {
       }),
     });
 
-
     const data = await response.json();
+
     if (data.translation) {
-      document.getElementById('output').innerText = `Translated Text: ${data.translation}`;
+      localStorage.setItem('originalText', inputValue);
+      localStorage.setItem('translatedText', data.translation);
+      window.location.href = 'translation.html';
     } else {
       alert('Translation failed.');
     }

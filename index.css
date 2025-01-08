@@ -146,3 +146,44 @@ input[type="text"]::placeholder {
   text-decoration-skip-ink: none;
   color: #FFFFFF;
 }
+
+.back-btn {
+  width: 322px;
+  height: 50px;
+  top: 652px;
+  left: 34px;
+  padding: 13px 0px 14px 0px;
+  gap: 0px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;
+  color: #FFFFFF;
+  background-color: #035A9D;
+  border-radius: 5px;
+  border-color: #035A9D;
+  box-shadow: none;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+back-btn text {
+  width: 322px;
+  height: 23px;
+  top: 13px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+
+.back-btn:hover {
+  background-color: #005fa3;
+}
